@@ -1,0 +1,12 @@
+Source: ros-indigo-oculus-sdk
+Section: misc
+Priority: extra
+Maintainer: Devon Ash <dash@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, freeglut3-dev, libudev-dev, libxext-dev, libxinerama-dev, mesa-common-dev
+Homepage: https://developer.oculusvr.com
+Standards-Version: 3.9.2
+
+Package: ros-indigo-oculus-sdk
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libudev-dev
+Description: The Oculus Rift SDK
